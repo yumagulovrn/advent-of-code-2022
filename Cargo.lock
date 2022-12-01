@@ -23,3 +23,17 @@ checksum = "b0fd2260e829bddf4cb6ea802289de2f86d6a7a690192fbe91b3f46e0f2c8473"
 dependencies = [
  "either",
 ]
+
+[[package]]
+name = "runner"
+version = "0.1.0"
+dependencies = [
+ "day01",
+ "took",
+]
+
+[[package]]
+name = "took"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "af1ea65cb083be6f0b13ba9a26eec5eb563e55198e318cbb0f525d593fbd349e"
