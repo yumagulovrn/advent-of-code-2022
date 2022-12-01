@@ -1,1 +1,5 @@
 [workspace]
+members = ["day01"]
+
+[workspace.dependencies]
+itertools = "0.10.5"
