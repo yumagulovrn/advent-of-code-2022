@@ -1,5 +1,5 @@
 [workspace]
-members = ["runner", "day01", "day02", "day03"]
+members = ["runner", "day01", "day02", "day03", "day04"]
 default-members = ["runner"]
 
 [workspace.dependencies]

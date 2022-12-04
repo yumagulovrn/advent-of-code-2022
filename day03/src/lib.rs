@@ -10,8 +10,7 @@ fn score(c: char) -> u32 {
 
 pub fn main() {
     let rucksacks: Vec<&str> = include_str!("../input.txt")
-        .split("\n")
-        .filter(|line| line.len() > 0)
+        .lines()
         .collect();
 
     let part1: u32 = rucksacks

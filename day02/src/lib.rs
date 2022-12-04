@@ -1,7 +1,6 @@
 pub fn main() {
     let rounds = include_str!("../input.txt")
-        .split("\n")
-        .filter(|line| line.len() > 0)
+        .lines()
         .map(|line| {
             (
                 line.chars().nth(0).unwrap() as i32 - 65,
