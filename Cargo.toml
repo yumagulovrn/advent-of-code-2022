@@ -1,7 +1,8 @@
 [workspace]
-members = ["runner", "day01", "day02", "day03", "day04"]
+members = ["runner", "day01", "day02", "day03", "day04", "day05"]
 default-members = ["runner"]
 
 [workspace.dependencies]
 itertools = "0.10.5"
 took = "0.1"
+atoi = "2"

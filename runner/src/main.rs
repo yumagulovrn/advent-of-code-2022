@@ -18,6 +18,9 @@ fn jobs() -> &'static [&'static Job] {
     },&Job {
         name: "day04",
         func: day04::main,
+    },&Job {
+        name: "day05",
+        func: day05::main,
     }]
 }
 
